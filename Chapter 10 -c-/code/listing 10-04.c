@@ -1,5 +1,10 @@
 /*
  * Usage of the WDT+ in timer mode in c
+ * The red and green LEDs toggle every 256ms by using the SMCLK/8
+ * the DCO is set to 1MHz:
+ * 	> WDT_MDLY_32 assumes 1MHz clock = 32ms interval
+ * 	> SMCLK = 1MHz/8 so since WDT hits less frequenty interval = 32*8: ~256ms
+ *
  */
 
 #include <msp430.h>
