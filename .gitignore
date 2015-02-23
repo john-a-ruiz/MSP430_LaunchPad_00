@@ -1,0 +1,25 @@
+*.metadata
+*.launches
+*.settings
+Debug
+targetConfigs
+*.ccsproject
+*.cproject
+*.project
+*.cmd
+Demo Assembly
+demograceproject
+Chapter08Grace
+*.cfg
+*.defs
+*.xdchelp
+*.config
+*.exclude
+*.bak
+*.lib
+*.libs
+objs
+makefile
+grace
+grace_code
+listing 8-06.c
