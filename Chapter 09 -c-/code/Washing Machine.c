@@ -89,8 +89,8 @@ void Wash()
 				pos++;
 				delay_ms(speed);
 			}
-			P1OUT = 0x00;
-		}
+			P1OUT = 0x00; 	// does this need to be here
+		}					// or rather it be here.
 		else
 			break;
 	}
