@@ -62,7 +62,7 @@ __interrupt void Timer_A(void)
 	if (count == 1)				// clear TimerA (start timer) on first press
 		TACTL |= TACLR;
 
-	if (count == 2)
+	if (count == 2)				// get value of TimeA wrt first press
 	{
 		result = TACCR0;
 		sec = (float)result / 1500;
