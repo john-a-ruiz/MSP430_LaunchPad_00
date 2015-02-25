@@ -20,7 +20,7 @@ void main(void)
 	// CCIS_0	0 : select TACCRx input signal - none
 	// SCS		0 : sync input signal capture with timer - not synced
 	// SCCI		0 : CCI input latched with EQUx and can be read here
-	// COM		0 : capture/compare mode - compare
+	// COM		1 : capture/compare mode - compare
 	// OUTMOD_0	0 : output mode - OUT bit value
 	// CCIE		1 : capture/compare interrupt enable - enabled
 	// CCI		0 : cap/comp input can be read here
@@ -42,9 +42,6 @@ void main(void)
 	// CPU, MCLK are disabled
 	// DCO and DC generator are diabled if the DCO is not used for SMCLK
 	// SMCLK, ACLK are active
-
-	while (1)
-		;
 }
 
 #pragma vector = TIMER0_A0_VECTOR
