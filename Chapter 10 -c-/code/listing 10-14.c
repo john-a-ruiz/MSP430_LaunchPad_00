@@ -46,7 +46,7 @@ void main(void)
 	// MC_3		  : mode control - up to TA1CCRO then down to 0000h ((2*TA1CCR0)/(ACLK/8)) = 8s
 	// TACLR	1 : TimerA clear - resets TAR, clock divider, count direction
 	// TAIE		0 : interrupt enable - disabled
-	// TAIFG	0 : interrupt flag - no interrup
+	// TAIFG	0 : interrupt flag - no interrupt
 
 	_enable_interrupts();
 
