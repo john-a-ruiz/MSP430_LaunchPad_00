@@ -1,6 +1,7 @@
 /*
  * The program counts the timer interrupts (~1s), if the sum reaches 5 the red and green
  * LEDs toggle. The sum is reset if the button is pressed.
+ * SMCLK is sourced by 1MHz DCO
  */
 
 #include <msp430.h>
