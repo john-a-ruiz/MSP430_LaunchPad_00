@@ -1,3 +1,11 @@
+/*
+ * This code is from the website
+ * https://sites.google.com/site/cacheattack/msp-projects/msp430-launchpad-with-lcd-module
+ * I owe cache respet and big ups, the code helped me immensly.
+ */
+
+
+
 //
 // MSP430 LCD interface
 //
@@ -327,7 +335,7 @@ void main(void)
 
     ClearLcmScreen();
 
-    PrintStr("Praise Jesus!!!");
+    PrintStr("Hello World!");
 
     while (1)
     {
